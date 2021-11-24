@@ -44,16 +44,36 @@
   <style>
     .mono {font-family: monospace; color: blue;}
     .monopre {border: solid 1px blue; border-radius: 2px; padding: 6px; font-family: monospace;}
-    a {text-decoration: none !important; color: blue;}
-    a.mono:link     {color:blue !important;}    /* unvisited link */
-    a.mono:visited  {color:blue !important;}    /* visited link */
-    a.mono:hover    {color:#FF00FF !important;} /* mouse over link */
-    a.mono:active   {color:blue !important;}    /* selected link */
+    .js {border: solid 1px blue; border-radius: 2px; padding: 6px;}
+    /* - - - */
+    a {text-decoration: none !important; color: #FF2F92;}
+    /* a.mono:link     {color:blue !important;}    
+    a.mono:visited  {color:blue !important;}    
+    a.mono:hover    {color:#FF00FF !important;} 
+    a.mono:active   {color:blue !important;}     */
+    section a:link     {color:#FF2F92 !important;}    /* #FF2F92 = Omnigraffle Strawberry */
+    section a:visited  {color:#FF2F92 !important;}    
+    section a:hover    {color:#FF00FF !important;} 
+    section a:active   {color:#FF2F92 !important;}    
     /* a:link     {color:blue !important;}    / * unvisited link */
     /* a:visited  {color:blue !important;}    / * visited link */
     /* a:hover    {color:#FF00FF !important;} / * mouse over link */
     /* a:active   {color:blue !important;}    / * selected link */
-    .js {border: solid 1px blue; border-radius: 2px; padding: 6px;}
+    /* a[target="_blank"]:after {
+   		/ * content: " (external)"; * /
+   		/ * font-family: 'FontAwesome';
+   		content: " \f35d"; * /
+   		/ * content: " \2197"; * /
+   		content: " [\2197]";
+   		/ * content: " \25F3"; * /
+   		/ * content: " <span class=\"glyphicon glyphicon-new-window\"></span>"; * /
+   	} */
+   	/* a[target="_blank"]:after.arrow { content: " \25F3"; } */
+   	/* a:after.arrow { content: " \25F3"; } */
+		/* a[target="_new"] { text-decoration: none !important; } */
+    /* a:after {content: " [\2197]";} */
+    section a:before {content: "> ";}
+    /* - - - */
   </style>
 
 </head>

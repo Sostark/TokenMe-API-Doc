@@ -1,11 +1,11 @@
 # Area Specification
 
-The before mentioned locations of Tokens at a certain time ("a [position fix](https://en.wikipedia.org/wiki/Geopositioning#Background)"), need to be defined in some coordinate system, and with some metrics:
+The before mentioned locations of Tokens at a certain time (a [position fix](https://en.wikipedia.org/wiki/Geopositioning#Background)), need to be defined in some coordinate system, and with some metrics:
 
 - In some scenarios it is preferred to use "local metrics, so a {x,y,z} 3D-coordinate in meters or centimers is practical, which is the [Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system),
 - But in other scenarios one could prefer to use "global metrics, so then we need the [Geographic coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system) using {latitude,longitude,altitude} (where lat,long is in [Decimal Degrees](https://en.wikipedia.org/wiki/Decimal_degrees), and alt is in meters or centimeters).
 
-## Automatic Area and Location calculations
+## Automatic calculations
 
 For these calculation we have defined a separate endpoint:
 
