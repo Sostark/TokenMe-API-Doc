@@ -10,6 +10,14 @@ In the next version (v2.1) we will introduce an authentication system, where the
 To mitigate the security risk, we have "hidden" the API using a specific 'code' in the API-endpoiunt URL. <br>
 This code is obviously not added in this (public) documentation.
 
+## API-server
+
+In this document the API-endpoints are denoted as relative paths, like <span class="mono">/api/example</span> 
+
+The full path is dependend on the customer and site (and optionally whether the server is production or test), like:
+
+<span class="mono">https://cloud.sostark.nl/wtc-nd-test/api/example</span>
+
 ## API Authentication
 
 This will be the API-endpoint that is reachable without a JWT token, and that can be used to login, and acquire a JTW session token:

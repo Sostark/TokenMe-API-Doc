@@ -1,6 +1,6 @@
 # TokenMe Data Flow
 
-The TokenMe system continuously generates TTL (Token:Time:Location) data or records, and stores these records in a central database, and exposes this data in several formats from the API-server.
+The TokenMe system continuously generates TTL (Token:Time:Location) data or records, and stores these records in a central database, and exposes this data in several formats on the API-server.
 
 Diagram of the Data-flow:
 
