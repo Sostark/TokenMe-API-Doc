@@ -7,7 +7,7 @@ The before mentioned locations of Tokens at a certain time ('a fix'), need to be
 
 ## Automatic Area and Location calculations
 
-For these calculation we have defined a seperate endpoint:
+For these calculation we have defined a separate endpoint:
 
 <span class="mono">https://cloud.sostark.nl/wtc-nd-test/api/areas</span>
 
@@ -36,5 +36,5 @@ Note that the definition of Areas is **hierarchical**, meaning that a Site-area 
 This hierarchy is depicted in this diagram:
 
 <img src="img/Sostark-TokenMe-API-design-v1.0.svg" /> <br>
-View image in seperate window: <a href="./img/Sostark-TokenMe-API-design-v1.0.svg" target="_blank">Sostark-TokenMe-API-design-v1.0.svg</a>
+View image in separate window: <a href="./img/Sostark-TokenMe-API-design-v1.0.svg" target="_blank">Sostark-TokenMe-API-design-v1.0.svg</a>
 
