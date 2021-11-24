@@ -1,5 +1,7 @@
 # Introduction
 
-This document version: v1.0.3 (updated 24-nov-2021) (doc-version is independent from API-version)
+Document version: <span class="mono"> v1.0.4 </span> (updated 24-nov-2021) (note: doc-version is independent from API-version)
 
-(to be done)
+This document describes the TokenMe [API](https://en.wikipedia.org/wiki/API) and its data structures.
+
+The TokenMe API is [REST-full](https://en.wikipedia.org/wiki/Representational_state_transfer) and [JSON](https://en.wikipedia.org/wiki/JSON) based.
