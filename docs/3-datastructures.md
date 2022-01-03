@@ -31,8 +31,6 @@ API-endpoint = <span class="mono">/api/reports</span>
         "16"
       ],
       "distance_tlist": [],
-      "_raw_string": "0001:91:6079e001:11,00,00,00:16,00,00,00:00,00,00,00:00,00,00,00:00,00,00,00",
-      "id": "61d25d02432bc048da1465b5"
     },
     {
       "anchor_id": "92",
@@ -41,16 +39,12 @@ API-endpoint = <span class="mono">/api/reports</span>
         "14"
       ],
       "distance_tlist": [],
-      "_raw_string": "0002:92:6079e001:14,00,00,00:00,00,00,00:00,00,00,00:00,00,00,00:00,00,00,00",
-      "id": "61d25d02432bc048da1465d0"
     },
     {
       "anchor_id": "93",
       "cloud_time": 1618599937,
       "presence_tlist": [],
       "distance_tlist": [],
-      "_raw_string": "0003:93:6079e001:00,00,00,00:00,00,00,00:00,00,00,00:00,00,00,00:00,00,00,00",
-      "id": "61d25d02432bc048da1465e7"
     }
   ],
   "meta": {
@@ -59,8 +53,8 @@ API-endpoint = <span class="mono">/api/reports</span>
     "api_version": "2.0.0",
     "query_method_path": "GET /api/reports?last=3",
     "endpoint": "/api/reports",
-    "server_time": 1641186673,
-    "query_count": 14,
+    "server_time": 1641187002,
+    "query_count": 16,
     "status_code": 200
   }
 }
@@ -71,22 +65,57 @@ API-endpoint = <span class="mono">/api/reports</span>
 API-endpoint = <span class="mono">/api/anchors</span>
 
 ```js
-// pseudo-JSON:
 {
   "anchors": [
-    { 
-      "(anchor-id)",
-      "(area)",
-      "latest_fixes": [
-        { 
-          "(time)", 
-          "(list-of-tokens)"
-        },
-      ...(more alike)
-      ]
+    {
+      "anchor_id": "91",
+      "time": 1618599942,
+      "presence_tlist": [],
+      "map_id": "map_anchor-91",
+      "anchor_loc": {
+        "type": "none",
+        "presence_alist": [],
+        "distance_alist": [],
+      },
+      "distance_tlist": [],
     },
-    ...(more alike)
+    {
+      "anchor_id": "92",
+      "time": 1618599942,
+      "presence_tlist": [
+        "14"
+      ],
+      "map_id": "map_anchor-92",
+      "anchor_loc": {
+        "type": "none",
+        "presence_alist": [],
+        "distance_alist": [],
+      },
+      "distance_tlist": [],
+    },
+    {
+      "anchor_id": "93",
+      "time": 1618599942,
+      "presence_tlist": [],
+      "map_id": "map_anchor-93",
+      "anchor_loc": {
+        "type": "none",
+        "presence_alist": [],
+        "distance_alist": [],
+      },
+      "distance_tlist": [],
+    }
   ],
+  "meta": {
+    "server_name": "wtc-nd-test",
+    "environment": "test",
+    "api_version": "2.0.0",
+    "query_method_path": "GET /api/anchors?last=3",
+    "endpoint": "/api/anchors",
+    "server_time": 1641187091,
+    "query_count": 2,
+    "status_code": 200
+  }
 }
 ```
 
@@ -95,75 +124,84 @@ API-endpoint = <span class="mono">/api/anchors</span>
 API-endpoint = <span class="mono">/api/tokens</span>
 
 ```js
-// pseudo-JSON:
 {
   "tokens": [
-    { 
-      "(token)",
-      "latest_fix": {
-        "(time)",
-        "(location)", 
+    {
+      "token_id": "11",
+      "time": 1618599941,
+      "location": {
+        "type": "presence_alist",
+        "presence_alist": [
+          {
+            "anchor_id": "91",
+            "time": 1618599939,
+          },
+          {
+            "anchor_id": "92",
+            "time": 1618599940,
+          },
+          {
+            "anchor_id": "93",
+            "time": 1618599941,
+          }
+        ],
+        "distance_alist": [],
       },
     },
-    ...(more alike)
-  ],
-}
-```
-
-```js
-{
-  "tokens": [
     {
-      "t_id": "A001",
-      "latest_fix": {
-        "time_epoch": 160121314,
-        "location": {
-          "anchors": [
-            "B001"
-          ]
-        }
-      }
+      "token_id": "12",
+      "time": 1618599941,
+      "location": {
+        "type": "presence_alist",
+        "presence_alist": [
+          {
+            "anchor_id": "94",
+            "time": 1618599939,
+          },
+          {
+            "anchor_id": "95",
+            "time": 1618599940,
+          },
+          {
+            "anchor_id": "96",
+            "time": 1618599941,
+          }
+        ],
+        "distance_alist": [],
+      },
     },
     {
-      "t_id": "A002",
-      "latest_fix": {
-        "time_epoch": 160121314,
-        "location": {
-          "anchors": [
-            "B001",
-            "B002",
-            "B003"
-          ]
-        }
-      }
-    },
-    {
-      "t_id": "A003",
-      "latest_fix": {
-        "time_epoch": 160121314,
-        "location": {
-          "x": 50.5,
-          "y": 20,
-          "z": 3.5
-        }
-      }
-    },
-    {
-      "t_id": "A004",
-      "latest_fix": {
-        "time_epoch": 160121314,
-        "location": {
-          "lat": 52.0156,
-          "long": 13.0556,
-          "alt": 3.5
-        }
-      }
+      "token_id": "13",
+      "time": 1618599942,
+      "location": {
+        "type": "presence_alist",
+        "presence_alist": [
+          {
+            "anchor_id": "96",
+            "time": 1618599942,
+          },
+          {
+            "anchor_id": "95",
+            "time": 1618599940,
+          },
+          {
+            "anchor_id": "94",
+            "time": 1618599939,
+          }
+        ],
+        "distance_alist": [],
+      },
     }
   ],
   "meta": {
-    "endpoint_name": "wtc-nd-test",
-    "api_version": "v2.0.0",
-    "query_method_path": "GET /api/tokens"
+    "server_name": "wtc-nd-test",
+    "environment": "test",
+    "api_version": "2.0.0",
+    "query_method_path": "GET /api/tokens?last=3",
+    "endpoint": "/api/tokens",
+    "server_time": 1641187186,
+    "query_count": 1,
+    "status_code": 200
   }
 }
 ```
@@ -173,20 +211,323 @@ API-endpoint = <span class="mono">/api/tokens</span>
 API-endpoint = <span class="mono">/api/timepoints</span>
 
 ```js
-// pseudo-JSON:
 {
   "timepoints": [
-    { 
-      "(time)",
-      "latest_fixes": [
-        { 
-          "(token)",
-          "(location)"
+    {
+      "time": 1618599937,
+      "fixes": [
+        {
+          "token_id": "11",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
         },
-        ...(more alike)
+        {
+          "token_id": "16",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "14",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "92",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "12",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "15",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "13",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "96",
+                "time": 1618599937,
+              }
+            ],
+            "distance_alist": [],
+          },
+        }
       ],
     },
-    ...(more alike)
+    {
+      "time": 1618599938,
+      "fixes": [
+        {
+          "token_id": "11",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "92",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "16",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599937,
+              },
+              {
+                "anchor_id": "94",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "14",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "92",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "12",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "95",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "15",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "13",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "96",
+                "time": 1618599937,
+              },
+              {
+                "anchor_id": "95",
+                "time": 1618599938,
+              }
+            ],
+            "distance_alist": [],
+          },
+        }
+      ],
+    },
+    {
+      "time": 1618599939,
+      "fixes": [
+        {
+          "token_id": "11",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599939,
+              },
+              {
+                "anchor_id": "92",
+                "time": 1618599939,
+              },
+              {
+                "anchor_id": "93",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "16",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "91",
+                "time": 1618599937,
+              },
+              {
+                "anchor_id": "94",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "92",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "14",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "92",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "93",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "12",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599939,
+              },
+              {
+                "anchor_id": "95",
+                "time": 1618599939,
+              },
+              {
+                "anchor_id": "96",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "15",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "94",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "95",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        },
+        {
+          "token_id": "13",
+          "location": {
+            "type": "presence_alist",
+            "presence_alist": [
+              {
+                "anchor_id": "96",
+                "time": 1618599937,
+              },
+              {
+                "anchor_id": "95",
+                "time": 1618599938,
+              },
+              {
+                "anchor_id": "94",
+                "time": 1618599939,
+              }
+            ],
+            "distance_alist": [],
+          },
+        }
+      ],
+    }
   ],
+  "meta": {
+    "server_name": "wtc-nd-test",
+    "environment": "test",
+    "api_version": "2.0.0",
+    "query_method_path": "GET /api/timepoints?last=3",
+    "endpoint": "/api/timepoints",
+    "server_time": 1641187211,
+    "query_count": 1,
+    "status_code": 200
+  }
 }
 ```

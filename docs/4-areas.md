@@ -14,20 +14,18 @@ For these calculation we have defined a separate endpoint:
 Which is using this internal data structure:
 
 ```js
-// pseudo-JSON:
 {
-  "areas": [
-    { 
-      "(area--such-as-floor)",
-      "(parent-area--such-as-building)",
-      "(origin--in-Cartesian-coordinates-x-y-z-or-Geographic-coordinates-lat-long-alt)",
-      "(translate--vector-from-parent-origin-to-this-area-origin)", 
-      "(rotate--optional-if-this-area-not-level-to-parent-area)",
-      "(anchor-location-within-this-area-coordinate-system)",
-      "(path-of-area--rectangle-or-specific-shape)",
-    },
-    ...(more alike)
-  ],
+  "response": "404: resource not found.",
+  "meta": {
+    "server_name": "wtc-nd-test",
+    "environment": "test",
+    "api_version": "2.0.0",
+    "query_method_path": "GET /api/areas?last=3",
+    "endpoint": "/api/areas",
+    "server_time": 1641187243,
+    "query_count": 1,
+    "status_code": 404
+  }
 }
 ```
 
