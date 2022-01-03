@@ -91,6 +91,6 @@ Note that the definition of Maps is **hierarchical**, meaning that a Site-map ca
 
 This hierarchy is depicted in this diagram:
 
-<img src="img/Sostark-TokenMe-API-design-v1.0.svg" /> <br>
-View image in separate window: <a href="./img/Sostark-TokenMe-API-design-v1.0.svg" target="_blank">Sostark-TokenMe-API-design-v1.0.svg</a>
+<img src="img/TokenMe-API-design-v1.1.svg" /> <br>
+View image in separate window: <a href="./img/TokenMe-API-design-v1.1.svg" target="_blank">TokenMe-API-design-v1.1.svg</a>
 
