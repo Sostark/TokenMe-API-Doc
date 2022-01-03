@@ -18,7 +18,8 @@ Which is using this internal data structure:
   "maps": [
     {
       "map_id": "Floor-1",
-      "description": "Map of Floor-1 containing 3 maps",
+      "description": "Area of Floor-1 containing 3 maps",
+      "parent_map": "_top",
       "child_maps": [
         "Map-A91",
         "Map-A92",
@@ -80,8 +81,8 @@ Which is using this internal data structure:
     "api_version": "2.0.0",
     "query_method_path": "GET /api/maps?last=3",
     "endpoint": "/api/maps",
-    "server_time": 1641232457,
-    "query_count": 1,
+    "server_time": 1641235971,
+    "query_count": 3,
     "status_code": 200
   }
 }
