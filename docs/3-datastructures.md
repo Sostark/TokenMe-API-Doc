@@ -71,11 +71,13 @@ API-endpoint = <span class="mono">/api/anchors</span>
       "anchor_id": "91",
       "time": 1618599942,
       "presence_tlist": [],
-      "map_id": "map_anchor-91",
+      "map_id": "Map-A91",
       "anchor_loc": {
-        "type": "none",
+        "type": "x-y",
+        "x": 1,
+        "y": 7.5,
         "presence_alist": [],
-        "distance_alist": [],
+        "distance_alist": []
       },
       "distance_tlist": [],
     },
@@ -85,11 +87,13 @@ API-endpoint = <span class="mono">/api/anchors</span>
       "presence_tlist": [
         "14"
       ],
-      "map_id": "map_anchor-92",
+      "map_id": "Map-A92",
       "anchor_loc": {
-        "type": "none",
+        "type": "x-y",
+        "x": 1,
+        "y": 7.5,
         "presence_alist": [],
-        "distance_alist": [],
+        "distance_alist": []
       },
       "distance_tlist": [],
     },
@@ -97,11 +101,13 @@ API-endpoint = <span class="mono">/api/anchors</span>
       "anchor_id": "93",
       "time": 1618599942,
       "presence_tlist": [],
-      "map_id": "map_anchor-93",
+      "map_id": "Map-A93",
       "anchor_loc": {
-        "type": "none",
+        "type": "x-y",
+        "x": 1,
+        "y": 7.5,
         "presence_alist": [],
-        "distance_alist": [],
+        "distance_alist": []
       },
       "distance_tlist": [],
     }
@@ -112,8 +118,8 @@ API-endpoint = <span class="mono">/api/anchors</span>
     "api_version": "2.0.0",
     "query_method_path": "GET /api/anchors?last=3",
     "endpoint": "/api/anchors",
-    "server_time": 1641187091,
-    "query_count": 2,
+    "server_time": 1641232316,
+    "query_count": 1,
     "status_code": 200
   }
 }
