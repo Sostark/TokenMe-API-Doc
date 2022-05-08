@@ -220,7 +220,7 @@ This endpoint recognizes the following query-parameters:
 
 | Parameter |  Default     | Example | Description |
 | --------- | ------------ | ------- | ----------- |
-| <span class="mono">limit</span>     | <span class="mono">1000</span>         | <span class="mono">?limit=999</span>        | max number of records returned, set this paramater to receive beyond 'default' number of records |
+| <span class="mono">limit</span>     | <span class="mono">100</span>         | <span class="mono">?limit=1500</span>        | max number of records returned, set this paramater to receive beyond 'default' number of records |
 | <span class="mono">lastsecs</span>  | <span class="mono">60</span>           | <span class="mono">?lastsecs=120</span>     | all records between now and 'lastsecs' seconds ago |
 | <span class="mono">start</span>     | <span class="mono">('end'-1day)</span> | <span class="mono">?start=1652019010</span> | all records from 'start' (in Unix-epoch-seconds) onwards |
 | <span class="mono">end</span>       | <span class="mono">(now)</span>        | <span class="mono">?end=1652019020</span>   | all records until 'end' (in Unix-epoch-seconds) |
