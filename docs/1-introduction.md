@@ -1,6 +1,6 @@
 # Introduction
 
-Document version: <span class="mono"> v1.0.5 </span> (updated 3-jan-2022) (note: doc-version is independent from API-version)
+Document version: <span class="mono"> v1.1.0 </span> (updated 8-may-2022) (note: doc-version is independent from API-version)
 
 This document describes the TokenMe [API](https://en.wikipedia.org/wiki/API) and its data structures.
 

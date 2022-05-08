@@ -216,6 +216,15 @@ API-endpoint = <span class="mono">/api/tokens</span>
 
 API-endpoint = <span class="mono">/api/timepoints</span>
 
+This endpoint recognizes the following query-parameters:
+
+| Parameter |  Default     | Example | Description |
+| --------- | ------------ | ------- | ----------- |
+| limit     | 1000         | ?limit=999 | max number of records returned, set this paramater to receive beyond 'default' number of records |
+| lastsecs  | 60           | ?lastsecs=120 | all records between now and 'lastsecs' seconds ago |
+| start     | ('end'-1day) | ?start=1652019010 | all records from 'start' (in Unix-epoch-seconds) onwards |
+| end       | (now)        | ?end=1652019020 | all records until 'end' (in Unix-epoch-seconds) |
+
 ```js
 {
   "timepoints": [
