@@ -14,7 +14,7 @@ In either case there is no difference in the collected TTL data itself, other th
 
 TokenMe support 3 methods for an Anchor to upload/publish its TTL (Token-Time-Location) data:
 
-1. HTTP-POST
+1. REST-API/HTTP-POST
 2. LoraWAN-publish
 3. MQTT-publish (not yet implemented)
 
