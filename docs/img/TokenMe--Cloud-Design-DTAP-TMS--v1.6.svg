@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="-192.5 -12.5 889 553" X_width="889" X_height="553">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#0432ff">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledBall_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#0432ff">
+      <g>
+        <circle cx="-1.3499994" cy="0" r="1.34999880690749" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#009051">
+      <g>
+        <path d="M 3.6 0 L 0 -1.35 L 0 1.35 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="#009051">
+      <g>
+        <path d="M -3.6 0 L 0 1.35 L 0 -1.35 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_4" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#929292">
+      <g>
+        <path d="M 3.6 0 L 0 -1.35 L 0 1.35 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledCenterBall_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#929292">
+      <g>
+        <circle cx="-1.3499994" cy="0" r="1.34999862889644" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_5" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#929292">
+      <g>
+        <path d="M 3.6 0 L 0 -1.35 L 0 1.35 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledCenterBall_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#929292">
+      <g>
+        <circle cx="-1.3499994" cy="0" r="1.34999862889644" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_6" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#929292">
+      <g>
+        <path d="M 7.2 0 L 0 -2.7 L 0 2.7 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_7" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#0432ff">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledBall_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-4 -3 5 6" markerWidth="5" markerHeight="6" color="#0432ff">
+      <g>
+        <circle cx="-1.3499994" cy="0" r="1.34999880690749" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="overview" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1">
+    <title>overview</title>
+    <rect fill="white" x="-192.5" y="-12.5" width="889" height="553"/>
+    <g id="overview_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_1405">
+        <path d="M -178 0 L 682 0 C 683.1046 67635375e-24 684 .8954305 684 2 L 684 526 C 684 527.1046 683.1046 528 682 528 L -178 528 C -179.10457 528 -180 527.1046 -180 526 L -180 2 C -180 .8954305 -179.10457 -67635375e-24 -178 0 Z" fill="white"/>
+        <path d="M -178 0 L 682 0 C 683.1046 67635375e-24 684 .8954305 684 2 L 684 526 C 684 527.1046 683.1046 528 682 528 L -178 528 C -179.10457 528 -180 527.1046 -180 526 L -180 2 C -180 .8954305 -179.10457 -67635375e-24 -178 0 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-180 6)" fill="black">
+          <tspan font-family="Menlo" font-size="8" fill="black" x="316.40625" y="7">&lt; TokenMe--Cloud-Design-DTAP-TMS--v1.6.graffle &gt;</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1543">
+        <path d="M -106 384 L 67 384 C 68.10457 384 69 384.89543 69 386 L 69 514 C 69 515.1046 68.10457 516 67 516 L -106 516 C -107.10457 516 -108 515.1046 -108 514 L -108 386 C -108 384.89543 -107.10457 384 -106 384 Z" fill="#fffff3"/>
+        <path d="M -106 384 L 67 384 C 68.10457 384 69 384.89543 69 386 L 69 514 C 69 515.1046 68.10457 516 67 516 L -106 516 C -107.10457 516 -108 515.1046 -108 514 L -108 386 C -108 384.89543 -107.10457 384 -106 384 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-108 501)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="23.478516" y="7">TMD</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: TokenMe Meta Dashboard</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1481">
+        <path d="M -106 264 L 646 264 C 647.1046 264 648 264.89543 648 266 L 648 358 C 648 359.10457 647.1046 360 646 360 L -106 360 C -107.10457 360 -108 359.10457 -108 358 L -108 266 C -108 264.89543 -107.10457 264 -106 264 Z" fill="#ccffe9"/>
+        <path d="M -106 264 L 646 264 C 647.1046 264 648 264.89543 648 266 L 648 358 C 648 359.10457 647.1046 360 646 360 L -106 360 C -107.10457 360 -108 359.10457 -108 358 L -108 266 C -108 264.89543 -107.10457 264 -106 264 Z" stroke="#009051" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(-108 270)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="317.79492" y="9">TMS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="9">: TokenMe </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="10" fill="black" y="9">Meta</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="9"> Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1280">
+        <path d="M -106 48 L 286 48 C 287.10457 48 288 48.89543 288 50 L 288 178 C 288 179.10457 287.10457 180 286 180 L -106 180 C -107.10457 180 -108 179.10457 -108 178 L -108 50 C -108 48.89543 -107.10457 48 -106 48 Z" fill="#ccd6ff"/>
+        <path d="M -106 48 L 286 48 C 287.10457 48 288 48.89543 288 50 L 288 178 C 288 179.10457 287.10457 180 286 180 L -106 180 C -107.10457 180 -108 179.10457 -108 178 L -108 50 C -108 48.89543 -107.10457 48 -106 48 Z" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(-108 54)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="36.65039" y="7">TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: TokenMe Cloud Server (</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#0432ff" y="7">=Template</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">) (also: Development &amp; Testing)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1282">
+        <path d="M 38 72 L 142 72 C 143.10457 72 144 72.89543 144 74 L 144 106 C 144 107.10457 143.10457 108 142 108 L 38 108 C 36.89543 108 36 107.10457 36 106 L 36 74 C 36 72.89543 36.89543 72 38 72 Z" fill="#ffc"/>
+        <path d="M 38 72 L 142 72 C 143.10457 72 144 72.89543 144 74 L 144 106 C 144 107.10457 143.10457 108 142 108 L 38 108 C 36.89543 108 36 107.10457 36 106 L 36 74 C 36 72.89543 36.89543 72 38 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(36 79.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="29.91797" y="7">API-server</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="17.876953" y="19">(code: Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1386">
+        <path d="M 518 300 L 622 300 C 623.1046 300 624 300.89543 624 302 L 624 334 C 624 335.10457 623.1046 336 622 336 L 518 336 C 516.8954 336 516 335.10457 516 334 L 516 302 C 516 300.89543 516.8954 300 518 300 Z" fill="#ffd9f3"/>
+        <path d="M 518 300 L 622 300 C 623.1046 300 624 300.89543 624 302 L 624 334 C 624 335.10457 623.1046 336 622 336 L 518 336 C 516.8954 336 516 335.10457 516 334 L 516 302 C 516 300.89543 516.8954 300 518 300 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(516 307.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="17.876953" y="7">Mongo-DB-Server</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="20.285156" y="19">(app: MongoDB)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1388">
+        <path d="M -94 132 L 10 132 C 11.10457 132 12 132.89543 12 134 L 12 166 C 12 167.10457 11.10457 168 10 168 L -94 168 C -95.10457 168 -96 167.10457 -96 166 L -96 134 C -96 132.89543 -95.10457 132 -94 132 Z" fill="#ffc"/>
+        <path d="M -94 132 L 10 132 C 11.10457 132 12 132.89543 12 134 L 12 166 C 12 167.10457 11.10457 168 10 168 L -94 168 C -95.10457 168 -96 167.10457 -96 166 L -96 134 C -96 132.89543 -95.10457 132 -94 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(-96 139.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="27.509766" y="7">Data-Import</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="17.876953" y="19">(code: Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1389">
+        <path d="M -94 72 L 10 72 C 11.10457 72 12 72.89543 12 74 L 12 106 C 12 107.10457 11.10457 108 10 108 L -94 108 C -95.10457 108 -96 107.10457 -96 106 L -96 74 C -96 72.89543 -95.10457 72 -94 72 Z" fill="#ffc"/>
+        <path d="M -94 72 L 10 72 C 11.10457 72 12 72.89543 12 74 L 12 106 C 12 107.10457 11.10457 108 10 108 L -94 108 C -95.10457 108 -96 107.10457 -96 106 L -96 74 C -96 72.89543 -95.10457 72 -94 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(-96 79.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="32.32617" y="7">Simulator</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="17.876953" y="19">(code: Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1390">
+        <path d="M 170 72 L 274 72 C 275.10457 72 276 72.89543 276 74 L 276 106 C 276 107.10457 275.10457 108 274 108 L 170 108 C 168.89543 108 168 107.10457 168 106 L 168 74 C 168 72.89543 168.89543 72 170 72 Z" fill="#d9ffd9"/>
+        <path d="M 170 72 L 274 72 C 275.10457 72 276 72.89543 276 74 L 276 106 C 276 107.10457 275.10457 108 274 108 L 170 108 C 168.89543 108 168 107.10457 168 106 L 168 74 C 168 72.89543 168.89543 72 170 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(168 79.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="10.652344" y="7">Web-UI (Dashboard)</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="15.46875" y="19">(code: React.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1391">
+        <path d="M 278 300 L 382 300 C 383.10457 300 384 300.89543 384 302 L 384 334 C 384 335.10457 383.10457 336 382 336 L 278 336 C 276.89543 336 276 335.10457 276 334 L 276 302 C 276 300.89543 276.89543 300 278 300 Z" fill="#ffd9f3"/>
+        <path d="M 278 300 L 382 300 C 383.10457 300 384 300.89543 384 302 L 384 334 C 384 335.10457 383.10457 336 382 336 L 278 336 C 276.89543 336 276 335.10457 276 334 L 276 302 C 276 300.89543 276.89543 300 278 300 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(276 307.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="29.91797" y="7">Web-server</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="22.69336" y="19">(app: Apache)</tspan>
+        </text>
+      </g>
+      <g id="Line_1395">
+        <line x1="11.625223" y1="131.7814" x2="36.374777" y2="108.2186" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1396">
+        <line x1="12.75" y1="90" x2="35.25" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1398">
+        <line x1="167.25" y1="90" x2="144.75" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1403">
+        <path d="M 398 300 L 502 300 C 503.10457 300 504 300.89543 504 302 L 504 334 C 504 335.10457 503.10457 336 502 336 L 398 336 C 396.89543 336 396 335.10457 396 334 L 396 302 C 396 300.89543 396.89543 300 398 300 Z" fill="#ffd9f3"/>
+        <path d="M 398 300 L 502 300 C 503.10457 300 504 300.89543 504 302 L 504 334 C 504 335.10457 503.10457 336 502 336 L 398 336 C 396.89543 336 396 335.10457 396 334 L 396 302 C 396 300.89543 396.89543 300 398 300 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(396 307.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="17.876953" y="7">Postgres-DB-Srv</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="13.060547" y="19">(app: PostgreSQL)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1408">
+        <path d="M 410 48 L 478 48 C 479.10457 48 480 48.89543 480 50 L 480 178 C 480 179.10457 479.10457 180 478 180 L 410 180 C 408.89543 180 408 179.10457 408 178 L 408 50 C 408 48.89543 408.89543 48 410 48 Z" fill="white"/>
+        <path d="M 410 48 L 478 48 C 479.10457 48 480 48.89543 480 50 L 480 178 C 480 179.10457 479.10457 180 478 180 L 410 180 C 408.89543 180 408 179.10457 408 178 L 408 50 C 408 48.89543 408.89543 48 410 48 Z" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(408 54)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="7.1015625" y="7">TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: cloud21</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1409">
+        <path d="M -82 300 L 250 300 C 251.10457 300 252 300.89543 252 302 L 252 334 C 252 335.10457 251.10457 336 250 336 L -82 336 C -83.10457 336 -84 335.10457 -84 334 L -84 302 C -84 300.89543 -83.10457 300 -82 300 Z" fill="#ffc"/>
+        <path d="M -82 300 L 250 300 C 251.10457 300 252 300.89543 252 302 L 252 334 C 252 335.10457 251.10457 336 250 336 L -82 336 C -83.10457 336 -84 335.10457 -84 334 L -84 302 C -84 300.89543 -83.10457 300 -82 300 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(-84 312.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="10" fill="black" x="76.48828" y="9">Meta</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="9"> Controller [API]</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" y="9"> (code: Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1412">
+        <path d="M -70 408 L 34 408 C 35.10457 408 36 408.89543 36 410 L 36 442 C 36 443.10457 35.10457 444 34 444 L -70 444 C -71.10457 444 -72 443.10457 -72 442 L -72 410 C -72 408.89543 -71.10457 408 -70 408 Z" fill="#d9ffd9"/>
+        <path d="M -70 408 L 34 408 C 35.10457 408 36 408.89543 36 410 L 36 442 C 36 443.10457 35.10457 444 34 444 L -70 444 C -71.10457 444 -72 443.10457 -72 442 L -72 410 C -72 408.89543 -71.10457 408 -70 408 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(-72 414.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="10" fill="black" x="3.4277344" y="9">Meta</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="9"> Dashboard [web]</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="15.46875" y="21">(code: React.js)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1456">
+        <path d="M 170 132 L 274 132 C 275.10457 132 276 132.89543 276 134 L 276 166 C 276 167.10457 275.10457 168 274 168 L 170 168 C 168.89543 168 168 167.10457 168 166 L 168 134 C 168 132.89543 168.89543 132 170 132 Z" fill="#ffc"/>
+        <path d="M 170 132 L 274 132 C 275.10457 132 276 132.89543 276 134 L 276 166 C 276 167.10457 275.10457 168 274 168 L 170 168 C 168.89543 168 168 167.10457 168 166 L 168 134 C 168 132.89543 168.89543 132 170 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(168 139.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="27.509766" y="7">Data-Export</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="17.876953" y="19">(code: Node.js)</tspan>
+        </text>
+      </g>
+      <g id="Line_1457">
+        <line x1="143.62522" y1="108.2186" x2="168.37478" y2="131.7814" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1463">
+        <path d="M 494 48 L 562 48 C 563.1046 48 564 48.89543 564 50 L 564 178 C 564 179.10457 563.1046 180 562 180 L 494 180 C 492.89543 180 492 179.10457 492 178 L 492 50 C 492 48.89543 492.89543 48 494 48 Z" fill="white"/>
+        <path d="M 494 48 L 562 48 C 563.1046 48 564 48.89543 564 50 L 564 178 C 564 179.10457 563.1046 180 562 180 L 494 180 C 492.89543 180 492 179.10457 492 178 L 492 50 C 492 48.89543 492.89543 48 494 48 Z" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(492 54)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="7.1015625" y="7">TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: cloud31</tspan>
+        </text>
+      </g>
+      <g id="Line_1479">
+        <path d="M 225.84 42.88 L 240 24 L 420 24 L 434.8783 38.878323" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledBall_Marker)" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1480">
+        <text transform="translate(261 27.5)" fill="#0432ff">
+          <tspan font-family="Menlo" font-weight="bold" font-size="7" fill="#0432ff" x="8.606689" y="6">[replication]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1482">
+        <path d="M 578 48 L 646 48 C 647.1046 48 648 48.89543 648 50 L 648 178 C 648 179.10457 647.1046 180 646 180 L 578 180 C 576.8954 180 576 179.10457 576 178 L 576 50 C 576 48.89543 576.8954 48 578 48 Z" fill="white"/>
+        <path d="M 578 48 L 646 48 C 647.1046 48 648 48.89543 648 50 L 648 178 C 648 179.10457 647.1046 180 646 180 L 578 180 C 576.8954 180 576 179.10457 576 178 L 576 50 C 576 48.89543 576.8954 48 578 48 Z" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(576 54)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="7.1015625" y="7">TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: cloud52</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1496">
+        <path d="M 35 132 L 73 132 C 74.10457 132 75 132.89543 75 134 L 75 166 C 75 167.10457 74.10457 168 73 168 L 35 168 C 33.89543 168 33 167.10457 33 166 L 33 134 C 33 132.89543 33.89543 132 35 132 Z" fill="#ffd9f3"/>
+        <path d="M 35 132 L 73 132 C 74.10457 132 75 132.89543 75 134 L 75 166 C 75 167.10457 74.10457 168 73 168 L 35 168 C 33.89543 168 33 167.10457 33 166 L 33 134 C 33 132.89543 33.89543 132 35 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(33 140)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="4.142578" y="7">Web-srv</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="7" fill="black" x="2.0354004" y="18">(routing)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1498">
+        <path d="M 83 132 L 109 132 C 110.10457 132 111 132.89543 111 134 L 111 166 C 111 167.10457 110.10457 168 109 168 L 83 168 C 81.89543 168 81 167.10457 81 166 L 81 134 C 81 132.89543 81.89543 132 83 132 Z" fill="#ffd9f3"/>
+        <path d="M 83 132 L 109 132 C 110.10457 132 111 132.89543 111 134 L 111 166 C 111 167.10457 110.10457 168 109 168 L 83 168 C 81.89543 168 81 167.10457 81 166 L 81 134 C 81 132.89543 81.89543 132 83 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(81 139.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="2.9589844" y="7">Postg </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="10.183594" y="19">DB</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1499">
+        <path d="M 119 132 L 145 132 C 146.10457 132 147 132.89543 147 134 L 147 166 C 147 167.10457 146.10457 168 145 168 L 119 168 C 117.89543 168 117 167.10457 117 166 L 117 134 C 117 132.89543 117.89543 132 119 132 Z" fill="#ffd9f3"/>
+        <path d="M 119 132 L 145 132 C 146.10457 132 147 132.89543 147 134 L 147 166 C 147 167.10457 146.10457 168 145 168 L 119 168 C 117.89543 168 117 167.10457 117 166 L 117 134 C 117 132.89543 117.89543 132 119 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(117 139.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="2.9589844" y="7">Mongo </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="10.183594" y="19">DB</tspan>
+        </text>
+      </g>
+      <g id="Line_1500">
+        <line x1="54" y1="131.25" x2="54" y2="108" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1502">
+        <line x1="96" y1="131.25" x2="96" y2="108" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1503">
+        <line x1="132" y1="131.25" x2="132" y2="108" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1505">
+        <path d="M 420 24 L 504 24 L 518.8783 38.878323" marker-end="url(#FilledArrow_Marker)" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1506">
+        <path d="M 504 24 L 588 24 L 602.8783 38.878323" marker-end="url(#FilledArrow_Marker)" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_1507">
+        <line x1="30" y1="289.5" x2="30" y2="190.5" marker-end="url(#FilledArrow_Marker_2)" marker-start="url(#FilledArrow_Marker_3)" stroke="#009051" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1508">
+        <text transform="translate(-42 247.5)" fill="#009051">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#009051" x="6.978516" y="7">[start/stop]   [monitoring]</tspan>
+        </text>
+      </g>
+      <g id="Group_1555">
+        <g id="Graphic_1449">
+          <path d="M 608 72 L 616 72 C 617.1046 72 618 72.89543 618 74 L 618 106 C 618 107.10457 617.1046 108 616 108 L 608 108 C 606.8954 108 606 107.10457 606 106 L 606 74 C 606 72.89543 606.8954 72 608 72 Z" fill="#ffc"/>
+          <path d="M 608 72 L 616 72 C 617.1046 72 618 72.89543 618 74 L 618 106 C 618 107.10457 617.1046 108 616 108 L 608 108 C 606.8954 108 606 107.10457 606 106 L 606 74 C 606 72.89543 606.8954 72 608 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(606 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1447">
+          <path d="M 590 132 L 598 132 C 599.1046 132 600 132.89543 600 134 L 600 166 C 600 167.10457 599.1046 168 598 168 L 590 168 C 588.8954 168 588 167.10457 588 166 L 588 134 C 588 132.89543 588.8954 132 590 132 Z" fill="#ffc"/>
+          <path d="M 590 132 L 598 132 C 599.1046 132 600 132.89543 600 134 L 600 166 C 600 167.10457 599.1046 168 598 168 L 590 168 C 588.8954 168 588 167.10457 588 166 L 588 134 C 588 132.89543 588.8954 132 590 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(588 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1446">
+          <path d="M 590 72 L 598 72 C 599.1046 72 600 72.89543 600 74 L 600 106 C 600 107.10457 599.1046 108 598 108 L 590 108 C 588.8954 108 588 107.10457 588 106 L 588 74 C 588 72.89543 588.8954 72 590 72 Z" fill="#ffc"/>
+          <path d="M 590 72 L 598 72 C 599.1046 72 600 72.89543 600 74 L 600 106 C 600 107.10457 599.1046 108 598 108 L 590 108 C 588.8954 108 588 107.10457 588 106 L 588 74 C 588 72.89543 588.8954 72 590 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(588 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1445">
+          <path d="M 626 72 L 634 72 C 635.1046 72 636 72.89543 636 74 L 636 106 C 636 107.10457 635.1046 108 634 108 L 626 108 C 624.8954 108 624 107.10457 624 106 L 624 74 C 624 72.89543 624.8954 72 626 72 Z" fill="#d9ffd9"/>
+          <path d="M 626 72 L 634 72 C 635.1046 72 636 72.89543 636 74 L 636 106 C 636 107.10457 635.1046 108 634 108 L 626 108 C 624.8954 108 624 107.10457 624 106 L 624 74 C 624 72.89543 624.8954 72 626 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(624 85.5)" fill="#ff2f92">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1443">
+          <line x1="599.9201" y1="132.03128" x2="606.0799" y2="107.96872" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1442">
+          <line x1="600.75" y1="90" x2="605.25" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1441">
+          <line x1="623.25" y1="90" x2="618.75" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1460">
+          <path d="M 626 132 L 634 132 C 635.1046 132 636 132.89543 636 134 L 636 166 C 636 167.10457 635.1046 168 634 168 L 626 168 C 624.8954 168 624 167.10457 624 166 L 624 134 C 624 132.89543 624.8954 132 626 132 Z" fill="#ffc"/>
+          <path d="M 626 132 L 634 132 C 635.1046 132 636 132.89543 636 134 L 636 166 C 636 167.10457 635.1046 168 634 168 L 626 168 C 624.8954 168 624 167.10457 624 166 L 624 134 C 624 132.89543 624.8954 132 626 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(624 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1461">
+          <line x1="617.9201" y1="107.96872" x2="624.0799" y2="132.03128" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1510">
+          <path d="M 608 150 L 610 150 C 611.1046 150 612 150.89543 612 152 L 612 166 C 612 167.10457 611.1046 168 610 168 L 608 168 C 606.8954 168 606 167.10457 606 166 L 606 152 C 606 150.89543 606.8954 150 608 150 Z" fill="#ffd9f3"/>
+          <path d="M 608 150 L 610 150 C 611.1046 150 612 150.89543 612 152 L 612 166 C 612 167.10457 611.1046 168 610 168 L 608 168 C 606.8954 168 606 167.10457 606 166 L 606 152 C 606 150.89543 606.8954 150 608 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1511">
+          <path d="M 608 132 L 616 132 C 617.1046 132 618 132.89543 618 134 L 618 148 C 618 149.10457 617.1046 150 616 150 L 608 150 C 606.8954 150 606 149.10457 606 148 L 606 134 C 606 132.89543 606.8954 132 608 132 Z" fill="#ffd9f3"/>
+          <path d="M 608 132 L 616 132 C 617.1046 132 618 132.89543 618 134 L 618 148 C 618 149.10457 617.1046 150 616 150 L 608 150 C 606.8954 150 606 149.10457 606 148 L 606 134 C 606 132.89543 606.8954 132 608 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1512">
+          <path d="M 614 150 L 616 150 C 617.1046 150 618 150.89543 618 152 L 618 166 C 618 167.10457 617.1046 168 616 168 L 614 168 C 612.8954 168 612 167.10457 612 166 L 612 152 C 612 150.89543 612.8954 150 614 150 Z" fill="#ffd9f3"/>
+          <path d="M 614 150 L 616 150 C 617.1046 150 618 150.89543 618 152 L 618 166 C 618 167.10457 617.1046 168 616 168 L 614 168 C 612.8954 168 612 167.10457 612 166 L 612 152 C 612 150.89543 612.8954 150 614 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Line_1542">
+        <line x1="-18" y1="397.5" x2="-18" y2="346.5" marker-end="url(#FilledArrow_Marker_2)" marker-start="url(#FilledArrow_Marker_3)" stroke="#009051" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1545">
+        <path d="M 87.5 384 L 260.5 384 C 261.60457 384 262.5 384.89543 262.5 386 L 262.5 514 C 262.5 515.1046 261.60457 516 260.5 516 L 87.5 516 C 86.39543 516 85.5 515.1046 85.5 514 L 85.5 386 C 85.5 384.89543 86.39543 384 87.5 384 Z" fill="#fffff3"/>
+        <path d="M 87.5 384 L 260.5 384 C 261.60457 384 262.5 384.89543 262.5 386 L 262.5 514 C 262.5 515.1046 261.60457 516 260.5 516 L 87.5 516 C 86.39543 516 85.5 515.1046 85.5 514 L 85.5 386 C 85.5 384.89543 86.39543 384 87.5 384 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(85.5 501)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="37.927734" y="7">TMA</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: TokenMe Meta App</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1547">
+        <path d="M 122 456 L 226 456 C 227.10457 456 228 456.89543 228 458 L 228 490 C 228 491.10457 227.10457 492 226 492 L 122 492 C 120.89543 492 120 491.10457 120 490 L 120 458 C 120 456.89543 120.89543 456 122 456 Z" fill="#d9ffd9"/>
+        <path d="M 122 456 L 226 456 C 227.10457 456 228 456.89543 228 458 L 228 490 C 228 491.10457 227.10457 492 226 492 L 122 492 C 120.89543 492 120 491.10457 120 490 L 120 458 C 120 456.89543 120.89543 456 122 456 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <text transform="translate(120 462.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="10" fill="black" x="13.060547" y="9">Meta</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="9"> App [phone]</tspan>
+          <tspan font-family="Menlo" font-size="8" fill="black" x="5.8359375" y="21">(code: React.native)</tspan>
+        </text>
+      </g>
+      <g id="Line_1548">
+        <line x1="132" y1="445.5" x2="132" y2="346.5" marker-end="url(#FilledArrow_Marker_2)" marker-start="url(#FilledArrow_Marker_3)" stroke="#009051" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1549">
+        <path d="M 326 456 L 604 456 C 605.1046 456 606 456.89543 606 458 L 606 514 C 606 515.1046 605.1046 516 604 516 L 326 516 C 324.89543 516 324 515.1046 324 514 L 324 458 C 324 456.89543 324.89543 456 326 456 Z" fill="#ebebeb"/>
+        <path d="M 326 456 L 604 456 C 605.1046 456 606 456.89543 606 458 L 606 514 C 606 515.1046 605.1046 516 604 516 L 326 516 C 324.89543 516 324 515.1046 324 514 L 324 458 C 324 456.89543 324.89543 456 326 456 Z" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(334 462)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="7">Use the </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2600" y="7">Meta-Dashboard</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7"> or </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2600" y="7">Meta-App</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7"> (</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#009051" y="7">Engineering</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">) for:</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="20">- Monitor health of all TCS (=Project-servers)</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="33">- Start/stop a TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="46">- Create new TCS / edit project details of TCS</tspan>
+        </text>
+      </g>
+      <g id="Line_1550">
+        <path d="M 321.3 468 L 300 468 L 276 426 L 47.25 426" marker-end="url(#FilledArrow_Marker_4)" marker-start="url(#FilledCenterBall_Marker)" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Line_1551">
+        <path d="M 321.3 504 L 288 504 L 276 474 L 238.5 474" marker-end="url(#FilledArrow_Marker_5)" marker-start="url(#FilledCenterBall_Marker_2)" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1553">
+        <path d="M 368 384 L 646 384 C 647.1046 384 648 384.89543 648 386 L 648 442 C 648 443.10457 647.1046 444 646 444 L 368 444 C 366.89543 444 366 443.10457 366 442 L 366 386 C 366 384.89543 366.89543 384 368 384 Z" fill="#ebebeb"/>
+        <path d="M 368 384 L 646 384 C 647.1046 384 648 384.89543 648 386 L 648 442 C 648 443.10457 647.1046 444 646 444 L 368 444 C 366.89543 444 366 443.10457 366 442 L 366 386 C 366 384.89543 366.89543 384 368 384 Z" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(376 390)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="7">Use </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2600" y="7">TCS </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">= </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#0432ff" y="7">Project</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7"> Dashboard (</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#0432ff" y="7">Customers</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7"> &amp; </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#009051" y="7">Engineering</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">):</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="20">- Status &amp; View live Token &amp; Anchor data</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="33">- Connect new Anchors to TCS, edit Anchor data</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="0" y="46">- edit map / location data of Anchors</tspan>
+        </text>
+      </g>
+      <g id="Line_1554">
+        <path d="M 650.7 414 L 672 414 L 672 90 L 653.7 90" marker-end="url(#FilledArrow_Marker_6)" marker-start="url(#FilledCenterBall_Marker_2)" stroke="#929292" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Group_1556">
+        <g id="Graphic_1568">
+          <path d="M 440 72 L 448 72 C 449.10457 72 450 72.89543 450 74 L 450 106 C 450 107.10457 449.10457 108 448 108 L 440 108 C 438.89543 108 438 107.10457 438 106 L 438 74 C 438 72.89543 438.89543 72 440 72 Z" fill="#ffc"/>
+          <path d="M 440 72 L 448 72 C 449.10457 72 450 72.89543 450 74 L 450 106 C 450 107.10457 449.10457 108 448 108 L 440 108 C 438.89543 108 438 107.10457 438 106 L 438 74 C 438 72.89543 438.89543 72 440 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(438 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1567">
+          <path d="M 422 132 L 430 132 C 431.10457 132 432 132.89543 432 134 L 432 166 C 432 167.10457 431.10457 168 430 168 L 422 168 C 420.89543 168 420 167.10457 420 166 L 420 134 C 420 132.89543 420.89543 132 422 132 Z" fill="#ffc"/>
+          <path d="M 422 132 L 430 132 C 431.10457 132 432 132.89543 432 134 L 432 166 C 432 167.10457 431.10457 168 430 168 L 422 168 C 420.89543 168 420 167.10457 420 166 L 420 134 C 420 132.89543 420.89543 132 422 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(420 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1566">
+          <path d="M 422 72 L 430 72 C 431.10457 72 432 72.89543 432 74 L 432 106 C 432 107.10457 431.10457 108 430 108 L 422 108 C 420.89543 108 420 107.10457 420 106 L 420 74 C 420 72.89543 420.89543 72 422 72 Z" fill="#ffc"/>
+          <path d="M 422 72 L 430 72 C 431.10457 72 432 72.89543 432 74 L 432 106 C 432 107.10457 431.10457 108 430 108 L 422 108 C 420.89543 108 420 107.10457 420 106 L 420 74 C 420 72.89543 420.89543 72 422 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(420 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1565">
+          <path d="M 458 72 L 466 72 C 467.10457 72 468 72.89543 468 74 L 468 106 C 468 107.10457 467.10457 108 466 108 L 458 108 C 456.89543 108 456 107.10457 456 106 L 456 74 C 456 72.89543 456.89543 72 458 72 Z" fill="#d9ffd9"/>
+          <path d="M 458 72 L 466 72 C 467.10457 72 468 72.89543 468 74 L 468 106 C 468 107.10457 467.10457 108 466 108 L 458 108 C 456.89543 108 456 107.10457 456 106 L 456 74 C 456 72.89543 456.89543 72 458 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(456 85.5)" fill="#ff2f92">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1564">
+          <line x1="431.92007" y1="132.03128" x2="438.07993" y2="107.96872" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1563">
+          <line x1="432.75" y1="90" x2="437.25" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1562">
+          <line x1="455.25" y1="90" x2="450.75" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1561">
+          <path d="M 458 132 L 466 132 C 467.10457 132 468 132.89543 468 134 L 468 166 C 468 167.10457 467.10457 168 466 168 L 458 168 C 456.89543 168 456 167.10457 456 166 L 456 134 C 456 132.89543 456.89543 132 458 132 Z" fill="#ffc"/>
+          <path d="M 458 132 L 466 132 C 467.10457 132 468 132.89543 468 134 L 468 166 C 468 167.10457 467.10457 168 466 168 L 458 168 C 456.89543 168 456 167.10457 456 166 L 456 134 C 456 132.89543 456.89543 132 458 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(456 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1560">
+          <line x1="449.92007" y1="107.96872" x2="456.07993" y2="132.03128" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1559">
+          <path d="M 440 150 L 442 150 C 443.10457 150 444 150.89543 444 152 L 444 166 C 444 167.10457 443.10457 168 442 168 L 440 168 C 438.89543 168 438 167.10457 438 166 L 438 152 C 438 150.89543 438.89543 150 440 150 Z" fill="#ffd9f3"/>
+          <path d="M 440 150 L 442 150 C 443.10457 150 444 150.89543 444 152 L 444 166 C 444 167.10457 443.10457 168 442 168 L 440 168 C 438.89543 168 438 167.10457 438 166 L 438 152 C 438 150.89543 438.89543 150 440 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1558">
+          <path d="M 440 132 L 448 132 C 449.10457 132 450 132.89543 450 134 L 450 148 C 450 149.10457 449.10457 150 448 150 L 440 150 C 438.89543 150 438 149.10457 438 148 L 438 134 C 438 132.89543 438.89543 132 440 132 Z" fill="#ffd9f3"/>
+          <path d="M 440 132 L 448 132 C 449.10457 132 450 132.89543 450 134 L 450 148 C 450 149.10457 449.10457 150 448 150 L 440 150 C 438.89543 150 438 149.10457 438 148 L 438 134 C 438 132.89543 438.89543 132 440 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1557">
+          <path d="M 446 150 L 448 150 C 449.10457 150 450 150.89543 450 152 L 450 166 C 450 167.10457 449.10457 168 448 168 L 446 168 C 444.89543 168 444 167.10457 444 166 L 444 152 C 444 150.89543 444.89543 150 446 150 Z" fill="#ffd9f3"/>
+          <path d="M 446 150 L 448 150 C 449.10457 150 450 150.89543 450 152 L 450 166 C 450 167.10457 449.10457 168 448 168 L 446 168 C 444.89543 168 444 167.10457 444 166 L 444 152 C 444 150.89543 444.89543 150 446 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Group_1569">
+        <g id="Graphic_1581">
+          <path d="M 524 72 L 532 72 C 533.1046 72 534 72.89543 534 74 L 534 106 C 534 107.10457 533.1046 108 532 108 L 524 108 C 522.8954 108 522 107.10457 522 106 L 522 74 C 522 72.89543 522.8954 72 524 72 Z" fill="#ffc"/>
+          <path d="M 524 72 L 532 72 C 533.1046 72 534 72.89543 534 74 L 534 106 C 534 107.10457 533.1046 108 532 108 L 524 108 C 522.8954 108 522 107.10457 522 106 L 522 74 C 522 72.89543 522.8954 72 524 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(522 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1580">
+          <path d="M 506 132 L 514 132 C 515.1046 132 516 132.89543 516 134 L 516 166 C 516 167.10457 515.1046 168 514 168 L 506 168 C 504.89543 168 504 167.10457 504 166 L 504 134 C 504 132.89543 504.89543 132 506 132 Z" fill="#ffc"/>
+          <path d="M 506 132 L 514 132 C 515.1046 132 516 132.89543 516 134 L 516 166 C 516 167.10457 515.1046 168 514 168 L 506 168 C 504.89543 168 504 167.10457 504 166 L 504 134 C 504 132.89543 504.89543 132 506 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(504 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1579">
+          <path d="M 506 72 L 514 72 C 515.1046 72 516 72.89543 516 74 L 516 106 C 516 107.10457 515.1046 108 514 108 L 506 108 C 504.89543 108 504 107.10457 504 106 L 504 74 C 504 72.89543 504.89543 72 506 72 Z" fill="#ffc"/>
+          <path d="M 506 72 L 514 72 C 515.1046 72 516 72.89543 516 74 L 516 106 C 516 107.10457 515.1046 108 514 108 L 506 108 C 504.89543 108 504 107.10457 504 106 L 504 74 C 504 72.89543 504.89543 72 506 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(504 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1578">
+          <path d="M 542 72 L 550 72 C 551.1046 72 552 72.89543 552 74 L 552 106 C 552 107.10457 551.1046 108 550 108 L 542 108 C 540.8954 108 540 107.10457 540 106 L 540 74 C 540 72.89543 540.8954 72 542 72 Z" fill="#d9ffd9"/>
+          <path d="M 542 72 L 550 72 C 551.1046 72 552 72.89543 552 74 L 552 106 C 552 107.10457 551.1046 108 550 108 L 542 108 C 540.8954 108 540 107.10457 540 106 L 540 74 C 540 72.89543 540.8954 72 542 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(540 85.5)" fill="#ff2f92">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1577">
+          <line x1="515.92007" y1="132.03128" x2="522.07993" y2="107.96872" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1576">
+          <line x1="516.75" y1="90" x2="521.25" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1575">
+          <line x1="539.25" y1="90" x2="534.75" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1574">
+          <path d="M 542 132 L 550 132 C 551.1046 132 552 132.89543 552 134 L 552 166 C 552 167.10457 551.1046 168 550 168 L 542 168 C 540.8954 168 540 167.10457 540 166 L 540 134 C 540 132.89543 540.8954 132 542 132 Z" fill="#ffc"/>
+          <path d="M 542 132 L 550 132 C 551.1046 132 552 132.89543 552 134 L 552 166 C 552 167.10457 551.1046 168 550 168 L 542 168 C 540.8954 168 540 167.10457 540 166 L 540 134 C 540 132.89543 540.8954 132 542 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(540 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1573">
+          <line x1="533.92007" y1="107.96872" x2="540.07993" y2="132.03128" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1572">
+          <path d="M 524 150 L 526 150 C 527.1046 150 528 150.89543 528 152 L 528 166 C 528 167.10457 527.1046 168 526 168 L 524 168 C 522.8954 168 522 167.10457 522 166 L 522 152 C 522 150.89543 522.8954 150 524 150 Z" fill="#ffd9f3"/>
+          <path d="M 524 150 L 526 150 C 527.1046 150 528 150.89543 528 152 L 528 166 C 528 167.10457 527.1046 168 526 168 L 524 168 C 522.8954 168 522 167.10457 522 166 L 522 152 C 522 150.89543 522.8954 150 524 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1571">
+          <path d="M 524 132 L 532 132 C 533.1046 132 534 132.89543 534 134 L 534 148 C 534 149.10457 533.1046 150 532 150 L 524 150 C 522.8954 150 522 149.10457 522 148 L 522 134 C 522 132.89543 522.8954 132 524 132 Z" fill="#ffd9f3"/>
+          <path d="M 524 132 L 532 132 C 533.1046 132 534 132.89543 534 134 L 534 148 C 534 149.10457 533.1046 150 532 150 L 524 150 C 522.8954 150 522 149.10457 522 148 L 522 134 C 522 132.89543 522.8954 132 524 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1570">
+          <path d="M 530 150 L 532 150 C 533.1046 150 534 150.89543 534 152 L 534 166 C 534 167.10457 533.1046 168 532 168 L 530 168 C 528.8954 168 528 167.10457 528 166 L 528 152 C 528 150.89543 528.8954 150 530 150 Z" fill="#ffd9f3"/>
+          <path d="M 530 150 L 532 150 C 533.1046 150 534 150.89543 534 152 L 534 166 C 534 167.10457 533.1046 168 532 168 L 530 168 C 528.8954 168 528 167.10457 528 166 L 528 152 C 528 150.89543 528.8954 150 530 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Graphic_1582">
+        <path d="M 314 48 L 382 48 C 383.10457 48 384 48.89543 384 50 L 384 178 C 384 179.10457 383.10457 180 382 180 L 314 180 C 312.89543 180 312 179.10457 312 178 L 312 50 C 312 48.89543 312.89543 48 314 48 Z" fill="white"/>
+        <path d="M 314 48 L 382 48 C 383.10457 48 384 48.89543 384 50 L 384 178 C 384 179.10457 383.10457 180 382 180 L 314 180 C 312.89543 180 312 179.10457 312 178 L 312 50 C 312 48.89543 312.89543 48 314 48 Z" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(312 54)" fill="#ff2f92">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="4.6933594" y="7">TCS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" y="7">: acct-tst</tspan>
+        </text>
+      </g>
+      <g id="Group_1583">
+        <g id="Graphic_1595">
+          <path d="M 344 72 L 352 72 C 353.10457 72 354 72.89543 354 74 L 354 106 C 354 107.10457 353.10457 108 352 108 L 344 108 C 342.89543 108 342 107.10457 342 106 L 342 74 C 342 72.89543 342.89543 72 344 72 Z" fill="#ffc"/>
+          <path d="M 344 72 L 352 72 C 353.10457 72 354 72.89543 354 74 L 354 106 C 354 107.10457 353.10457 108 352 108 L 344 108 C 342.89543 108 342 107.10457 342 106 L 342 74 C 342 72.89543 342.89543 72 344 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(342 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1594">
+          <path d="M 326 132 L 334 132 C 335.10457 132 336 132.89543 336 134 L 336 166 C 336 167.10457 335.10457 168 334 168 L 326 168 C 324.89543 168 324 167.10457 324 166 L 324 134 C 324 132.89543 324.89543 132 326 132 Z" fill="#ffc"/>
+          <path d="M 326 132 L 334 132 C 335.10457 132 336 132.89543 336 134 L 336 166 C 336 167.10457 335.10457 168 334 168 L 326 168 C 324.89543 168 324 167.10457 324 166 L 324 134 C 324 132.89543 324.89543 132 326 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(324 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1593">
+          <path d="M 326 72 L 334 72 C 335.10457 72 336 72.89543 336 74 L 336 106 C 336 107.10457 335.10457 108 334 108 L 326 108 C 324.89543 108 324 107.10457 324 106 L 324 74 C 324 72.89543 324.89543 72 326 72 Z" fill="#ffc"/>
+          <path d="M 326 72 L 334 72 C 335.10457 72 336 72.89543 336 74 L 336 106 C 336 107.10457 335.10457 108 334 108 L 326 108 C 324.89543 108 324 107.10457 324 106 L 324 74 C 324 72.89543 324.89543 72 326 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(324 85.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Graphic_1592">
+          <path d="M 362 72 L 370 72 C 371.10457 72 372 72.89543 372 74 L 372 106 C 372 107.10457 371.10457 108 370 108 L 362 108 C 360.89543 108 360 107.10457 360 106 L 360 74 C 360 72.89543 360.89543 72 362 72 Z" fill="#d9ffd9"/>
+          <path d="M 362 72 L 370 72 C 371.10457 72 372 72.89543 372 74 L 372 106 C 372 107.10457 371.10457 108 370 108 L 362 108 C 360.89543 108 360 107.10457 360 106 L 360 74 C 360 72.89543 360.89543 72 362 72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(360 85.5)" fill="#ff2f92">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#ff2f92" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1591">
+          <line x1="335.92007" y1="132.03128" x2="342.07993" y2="107.96872" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1590">
+          <line x1="336.75" y1="90" x2="341.25" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_1589">
+          <line x1="359.25" y1="90" x2="354.75" y2="90" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1588">
+          <path d="M 362 132 L 370 132 C 371.10457 132 372 132.89543 372 134 L 372 166 C 372 167.10457 371.10457 168 370 168 L 362 168 C 360.89543 168 360 167.10457 360 166 L 360 134 C 360 132.89543 360.89543 132 362 132 Z" fill="#ffc"/>
+          <path d="M 362 132 L 370 132 C 371.10457 132 372 132.89543 372 134 L 372 166 C 372 167.10457 371.10457 168 370 168 L 362 168 C 360.89543 168 360 167.10457 360 166 L 360 134 C 360 132.89543 360.89543 132 362 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <text transform="translate(360 145.5)" fill="black">
+            <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="6" y="7"> </tspan>
+          </text>
+        </g>
+        <g id="Line_1587">
+          <line x1="353.92007" y1="107.96872" x2="360.07993" y2="132.03128" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_1586">
+          <path d="M 344 150 L 346 150 C 347.10457 150 348 150.89543 348 152 L 348 166 C 348 167.10457 347.10457 168 346 168 L 344 168 C 342.89543 168 342 167.10457 342 166 L 342 152 C 342 150.89543 342.89543 150 344 150 Z" fill="#ffd9f3"/>
+          <path d="M 344 150 L 346 150 C 347.10457 150 348 150.89543 348 152 L 348 166 C 348 167.10457 347.10457 168 346 168 L 344 168 C 342.89543 168 342 167.10457 342 166 L 342 152 C 342 150.89543 342.89543 150 344 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1585">
+          <path d="M 344 132 L 352 132 C 353.10457 132 354 132.89543 354 134 L 354 148 C 354 149.10457 353.10457 150 352 150 L 344 150 C 342.89543 150 342 149.10457 342 148 L 342 134 C 342 132.89543 342.89543 132 344 132 Z" fill="#ffd9f3"/>
+          <path d="M 344 132 L 352 132 C 353.10457 132 354 132.89543 354 134 L 354 148 C 354 149.10457 353.10457 150 352 150 L 344 150 C 342.89543 150 342 149.10457 342 148 L 342 134 C 342 132.89543 342.89543 132 344 132 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <g id="Graphic_1584">
+          <path d="M 350 150 L 352 150 C 353.10457 150 354 150.89543 354 152 L 354 166 C 354 167.10457 353.10457 168 352 168 L 350 168 C 348.89543 168 348 167.10457 348 166 L 348 152 C 348 150.89543 348.89543 150 350 150 Z" fill="#ffd9f3"/>
+          <path d="M 350 150 L 352 150 C 353.10457 150 354 150.89543 354 152 L 354 166 C 354 167.10457 353.10457 168 352 168 L 350 168 C 348.89543 168 348 167.10457 348 166 L 348 152 C 348 150.89543 348.89543 150 350 150 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="Graphic_1596">
+        <path d="M -106 210.75 L 286 210.75 C 287.10457 210.75 288 211.64543 288 212.75 L 288 232.75 C 288 233.85457 287.10457 234.75 286 234.75 L -106 234.75 C -107.10457 234.75 -108 233.85457 -108 232.75 L -108 212.75 C -108 211.64543 -107.10457 210.75 -106 210.75 Z" fill="#ebebeb"/>
+        <path d="M -106 210.75 L 286 210.75 C 287.10457 210.75 288 211.64543 288 212.75 L 288 232.75 C 288 233.85457 287.10457 234.75 286 234.75 L -106 234.75 C -107.10457 234.75 -108 233.85457 -108 232.75 L -108 212.75 C -108 211.64543 -107.10457 210.75 -106 210.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-108 218.25)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="27.017578" y="7">DT of DTAP-environments: Development &amp; Testing </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="#929292" y="7">[Unit+Integration Tests]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1597">
+        <path d="M 314 210.75 L 382 210.75 C 383.10457 210.75 384 211.64543 384 212.75 L 384 232.75 C 384 233.85457 383.10457 234.75 382 234.75 L 314 234.75 C 312.89543 234.75 312 233.85457 312 232.75 L 312 212.75 C 312 211.64543 312.89543 210.75 314 210.75 Z" fill="#ebebeb"/>
+        <path d="M 314 210.75 L 382 210.75 C 383.10457 210.75 384 211.64543 384 212.75 L 384 232.75 C 384 233.85457 383.10457 234.75 382 234.75 L 314 234.75 C 312.89543 234.75 312 233.85457 312 232.75 L 312 212.75 C 312 211.64543 312.89543 210.75 314 210.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(312 212.75)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="11.917969" y="7">Acceptance </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="19.142578" y="18">Testing</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1598">
+        <path d="M 410 209.25 L 646 209.25 C 647.1046 209.25 648 210.14543 648 211.25 L 648 231.25 C 648 232.35457 647.1046 233.25 646 233.25 L 410 233.25 C 408.89543 233.25 408 232.35457 408 231.25 L 408 211.25 C 408 210.14543 408.89543 209.25 410 209.25 Z" fill="#ebebeb"/>
+        <path d="M 410 209.25 L 646 209.25 C 647.1046 209.25 648 210.14543 648 211.25 L 648 231.25 C 648 232.35457 647.1046 233.25 646 233.25 L 410 233.25 C 408.89543 233.25 408 232.35457 408 231.25 L 408 211.25 C 408 210.14543 408.89543 209.25 410 209.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(408 216.75)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="95.91797" y="7">Production</tspan>
+        </text>
+      </g>
+      <g id="Line_1599">
+        <path d="M 226.09718 184.91662 L 237 198 L 330 198 L 338.87832 189.12168" marker-end="url(#FilledArrow_Marker_7)" marker-start="url(#FilledBall_Marker_2)" stroke="#0432ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_1600">
+        <text transform="translate(261 186.5)" fill="#0432ff">
+          <tspan font-family="Menlo" font-weight="bold" font-size="7" fill="#0432ff" x="8.606689" y="6">[replication]</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1601">
+        <path d="M -166 48 L -134 48 C -132.89543 48 -132 48.89543 -132 50 L -132 178 C -132 179.10457 -132.89543 180 -134 180 L -166 180 C -167.10457 180 -168 179.10457 -168 178 L -168 50 C -168 48.89543 -167.10457 48 -166 48 Z" fill="#ebebeb"/>
+        <path d="M -166 48 L -134 48 C -132.89543 48 -132 48.89543 -132 50 L -132 178 C -132 179.10457 -132.89543 180 -134 180 L -166 180 C -167.10457 180 -168 179.10457 -168 178 L -168 50 C -168 48.89543 -167.10457 48 -166 48 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-168 103.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="10.77539" y="7">TCS </tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="3.5507812" y="19">domain</tspan>
+        </text>
+      </g>
+      <g id="Graphic_1602">
+        <path d="M -166 264 L -134 264 C -132.89543 264 -132 264.89543 -132 266 L -132 514 C -132 515.1046 -132.89543 516 -134 516 L -166 516 C -167.10457 516 -168 515.1046 -168 514 L -168 266 C -168 264.89543 -167.10457 264 -166 264 Z" fill="#ebebeb"/>
+        <path d="M -166 264 L -134 264 C -132.89543 264 -132 264.89543 -132 266 L -132 514 C -132 515.1046 -132.89543 516 -134 516 L -166 516 C -167.10457 516 -168 515.1046 -168 514 L -168 266 C -168 264.89543 -167.10457 264 -166 264 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-168 379.5)" fill="black">
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="10.77539" y="7">TMS</tspan>
+          <tspan font-family="Menlo" font-weight="bold" font-size="8" fill="black" x="3.5507812" y="19">domain</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
